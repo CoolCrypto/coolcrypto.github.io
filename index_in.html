@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Cool Crypto</title>
+    <meta name="description" content="सभी के लिए एक कूल टोकन">
+
+<style>
+@import url('https://fonts.googleapis.com/css?family=Asap|Gruppo');
+</style>
+    <style type="text/css">
+body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure { margin: 0; padding: 0; }
+body { font-family: 'Asap', sans-serif; font-size: 20px; line-height: 1.5; font-weight: 300; color: #111; background-color: #fdfdfd; -webkit-text-size-adjust: 100%; }
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, .highlight { margin-bottom: 15px; }
+img { max-width: 100%; vertical-align: middle; }
+figure > img { display: block; }
+figcaption { font-size: 14px; }
+ul, ol { margin-left: 30px; }
+li > ul, li > ol { margin-bottom: 0; }
+h1, h2, h3, h4, h5, h6 { font-weight: 300;  }
+a { color: #2a7ae2; text-decoration: none; }
+a:visited { color: #1756a9; }
+a:hover { color: #111; text-decoration: underline; }
+blockquote { color: #828282; border-left: 4px solid #e8e8e8; padding-left: 15px; font-size: 18px; letter-spacing: -1px; font-style: italic; }
+blockquote > :last-child { margin-bottom: 0; }
+pre, code { font-size: 15px; border-radius: 3px; background-color: #f7f7f7; }
+code { padding: 1px 5px; }
+pre { padding: 8px 12px; overflow: auto; }
+pre > code { border: 0; padding-right: 0; padding-left: 0; }
+.wrapper { max-width: -webkit-calc(800px - (30px * 2)); max-width: calc(800px - (30px * 2)); margin-right: auto; margin-left: auto; padding-right: 30px; padding-left: 30px; }
+@media screen and (max-width: 800px) { .wrapper { max-width: -webkit-calc(800px - (30px)); max-width: calc(800px - (30px)); padding-right: 15px; padding-left: 15px; } }
+.wrapper:after, .footer-col-wrapper:after { content: ""; display: table; clear: both; }
+.icon > svg { display: inline-block; width: 16px; height: 16px; vertical-align: middle; }
+.icon > svg path { fill: #828282; }
+.site-header { border-top: 7px solid #e8e8e8; border-bottom: 1px solid #e8e8e8; min-height: 56px; position: relative; }
+.site-title { font-family: 'Gruppo', cursive; font-size: 45px; line-height: 110px; letter-spacing: -3px; margin-bottom: 0; float: left; }
+.site-title, .site-title:hover { text-decoration: none; color: #424242; }
+.site-title, .site-title:visited { color: #424242; }
+.site-nav { float: right; line-height: 56px; }
+.site-nav .menu-icon { display: none; }
+.site-nav .page-link { color: #111; line-height: 1.5; }
+.site-nav .page-link:not(:first-child) { margin-left: 20px; }
+@media screen and (max-width: 600px) { .site-nav { position: absolute; top: 9px; right: 30px; background-color: #fdfdfd; border: 1px solid #e8e8e8; border-radius: 5px; text-align: right; }
+  .site-nav .menu-icon { display: block; float: right; width: 36px; height: 26px; line-height: 0; padding-top: 10px; text-align: center; }
+  .site-nav .menu-icon > svg { width: 18px; height: 15px; }
+  .site-nav .menu-icon > svg path { fill: #424242; }
+  .site-nav .trigger { clear: both; display: none; }
+  .site-nav:hover .trigger { display: block; padding-bottom: 5px; }
+  .site-nav .page-link { display: block; padding: 5px 10px; } }
+.logo { float: left; padding-top: 10px; padding-bottom: 10px; padding-right: 20px; }
+.logo img { height: 80px; }
+.site-footer { border-top: 1px solid #e8e8e8; padding: 30px 0; }
+.footer-heading { font-size: 18px; margin-bottom: 15px; }
+.contact-list, .social-media-list { list-style: none; margin-left: 0; }
+.footer-col-wrapper { font-size: 15px; color: #828282; margin-left: -15px;  }
+.footer-col { float: right; margin-bottom: 15px; padding-left: 15px; }
+.footer-col-1 { width: -webkit-calc(35% - (30px / 2)); width: calc(35% - (30px / 2)); }
+.footer-col-2 { width: -webkit-calc(20% - (30px / 2)); width: calc(20% - (30px / 2)); }
+.footer-col-3 { width: -webkit-calc(45% - (30px / 2)); width: calc(45% - (30px / 2)); }
+@media screen and (max-width: 800px) { .footer-col-1, .footer-col-2 { width: -webkit-calc(50% - (30px / 2)); width: calc(50% - (30px / 2)); }
+  .footer-col-3 { width: -webkit-calc(100% - (30px / 2)); width: calc(100% - (30px / 2)); } }
+@media screen and (max-width: 600px) { .footer-col { float: none; width: -webkit-calc(100% - (30px / 2)); width: calc(100% - (30px / 2)); } }
+/** Page content */
+.page-content { padding: 30px 0; }
+.page-heading { font-size: 20px; }
+.post-list { margin-left: 0; list-style: none; }
+.post-list > li { margin-bottom: 30px; }
+.post-meta { font-size: 14px; color: #828282; }
+.post-link { display: block; font-size: 24px; }
+/** Posts */
+.post-header { margin-bottom: 30px; }
+.post-title { font-size: 42px; letter-spacing: -1px; line-height: 1; }
+@media screen and (max-width: 800px) { .post-title { font-size: 36px; } }
+.post-content { margin-bottom: 30px; }
+.post-content h2 { font-size: 32px; }
+@media screen and (max-width: 800px) { .post-content h2 { font-size: 28px; } }
+.post-content h3 { font-size: 26px; }
+@media screen and (max-width: 800px) { .post-content h3 { font-size: 22px; } }
+.post-content h4 { font-size: 20px; }
+@media screen and (max-width: 800px) { .post-content h4 { font-size: 18px; } }
+.precedence { border-collapse: collapse; }
+.precedence td { padding: .5em; border-right: 1px solid lightgrey; }
+.precedence tr { margin: 0; padding: 0; }
+pre.code-diff b { color: red; }
+    </style>
+    <link rel="canonical" href="/">
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+      <div class="logo">
+          <a href="/">
+              <img src="https://raw.githubusercontent.com/CoolCrypto/coolcrypto.github.io/master/coolcrypto.png"/>
+          </a>
+    </div>
+
+    <a class="site-title" href="/">Cool Crypto</a>
+
+    <nav class="site-nav">
+     <a href="#" class="menu-icon">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">सभी के लिए एक कूल टोकन</h1>
+  </header>
+
+  <article class="post-content">
+    <p>
+      
+      ब्लॉकचैन कूल है, टोकन कूल हैं , एथेरियम ब्लॉकचैन पर एक टोकन है इसे सरल रखें । <a href="https://bitcointalk.org/index.php?topic=2136194">कुछ कूल टोकन प्राप्त करें</a> । कूल मज़ेदार, उपयोग में आसान, और क्रिप्टो अपनाने के लिए बनाया गया है। यह वास्तव में आसान है आपका दोस्त कूल है, कुछ कूल भेजें आज अपने कूल होने का दावा करें, <a href="https://bitcointalk.org/index.php?topic=2136194">बिटकॉइनटॉक पोस्ट</a> पढ़ें। <strong>@CoolCrypto</strong> परियोजना के बारे में ट्वीट करने के लिए 2500 कूल कमाएं
+      <br /><br />
+      <small>
+      अनुबंध का पता: <a href="https://etherscan.io/address/0x8cd3bac9875b1945d1d3469947236d8971bf3174#pageSize=100">0x8cd3bac9875b1945d1d3469947236d8971bf3174</a> <br />
+      टोकन वितरण का पता: <a href="https://etherscan.io/address/0xe76cb68d64680ae8b7600c36e5a9ec68e68b37a4">0xe76cb68d64680ae8b7600c36e5a9ec68e68b37a4</a><br />
+      पारदर्शी <a href="https://docs.google.com/spreadsheets/d/1XIXqunCBsINUbevuhYGmVh6Vd7OeQzrGuAhcKuyVFXg/edit?usp=sharing">वितरण स्प्रेडशीट</a>
+      <br />
+      आपूर्ति: 100.000.000 कूल <br />
+      वितरण: एयरड्रॉप , ICO के लिए नहीं
+      </small>
+    </p>
+
+
+  </article>
+
+</div>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+<!--     <h2 class="footer-heading">More Info</h2> -->
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col  footer-col-1">
+        <ul class="contact-list">
+              <span class="icon  icon--bitcointalk">
+                <svg viewBox="0 0 16 16">
+                  <path fill="#828282" d="M15.76 9.936c-1.068 4.286-5.41 6.894-9.696 5.825C1.78 14.7-.83 10.35.24 6.07 1.308 1.78 5.65-.83 9.934.238c4.287 1.07 6.895 5.41 5.827 9.7zM11.527 6.86c.16-1.064-.65-1.637-1.76-2.02l.36-1.44-.878-.22-.35 1.405c-.23-.058-.47-.112-.71-.166L8.54 3l-.88-.22-.36 1.443c-.19-.045-.377-.088-.56-.133l-1.21-.3-.233.938s.65.15.637.158c.357.09.42.324.41.51l-.985 3.95c-.05.11-.16.27-.41.21.01.013-.64-.16-.64-.16l-.44 1.006 1.14.284.62.162-.36 1.46.88.217.36-1.443c.24.065.47.125.7.182L6.87 12.7l.88.22.363-1.457c1.497.283 2.622.17 3.096-1.185.38-1.09-.02-1.72-.81-2.13.57-.13 1-.508 1.12-1.288zM9.52 9.673c-.27 1.09-2.106.5-2.7.353l.48-1.933c.596.15 2.504.443 2.22 1.58zm.272-2.83c-.247.993-1.775.49-2.27.366l.436-1.76c.496.12 2.092.35 1.834 1.39z"/>
+                </svg>
+              </span>
+              <a href="https://bitcointalk.org/index.php?topic=2136194">Bitcointalk</a>
+
+              &nbsp;
+
+                      <span class="icon  icon--twitter">
+                <svg viewBox="0 0 16 16">
+                  <path fill="#828282" d="M15.969,3.058c-0.586,0.26-1.217,0.436-1.878,0.515c0.675-0.405,1.194-1.045,1.438-1.809
+                  c-0.632,0.375-1.332,0.647-2.076,0.793c-0.596-0.636-1.446-1.033-2.387-1.033c-1.806,0-3.27,1.464-3.27,3.27 c0,0.256,0.029,0.506,0.085,0.745C5.163,5.404,2.753,4.102,1.14,2.124C0.859,2.607,0.698,3.168,0.698,3.767 c0,1.134,0.577,2.135,1.455,2.722C1.616,6.472,1.112,6.325,0.671,6.08c0,0.014,0,0.027,0,0.041c0,1.584,1.127,2.906,2.623,3.206 C3.02,9.402,2.731,9.442,2.433,9.442c-0.211,0-0.416-0.021-0.615-0.059c0.416,1.299,1.624,2.245,3.055,2.271 c-1.119,0.877-2.529,1.4-4.061,1.4c-0.264,0-0.524-0.015-0.78-0.046c1.447,0.928,3.166,1.469,5.013,1.469 c6.015,0,9.304-4.983,9.304-9.304c0-0.142-0.003-0.283-0.009-0.423C14.976,4.29,15.531,3.714,15.969,3.058z"/>
+                </svg></span>
+              
+              <a href="https://twitter.com/coolcrypto">Twitter</a>
+
+              &nbsp;
+
+
+            
+              <span class="icon  icon--github">
+                <svg viewBox="0 0 24 24">
+                  <path fill="#828282" d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/>
+                </svg></span>
+                <a href="https://github.com/coolcrypto">Github</a>
+              
+        </ul>
+      </div>
+
+      
+
+      <div class="footer-col  footer-col-3">
+        <p class="text" style="text-align: left; margin-left: -150px;">Keep it cool.</p>
+      </div>
+
+
+  </div>
+
+</footer>
+
+
+  </body>
+
+</html>
